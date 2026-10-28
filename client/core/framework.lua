@@ -1,3 +1,4 @@
+-- Compatible with ESX and QBCore 
 local function started(name)
     return GetResourceState(name) == 'started'
 end
