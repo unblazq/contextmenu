@@ -1,7 +1,7 @@
 unblazq = unblazq or {}
 
 ---------------------------------------------------------------------
--- Détection (Qbox avant QB car il expose aussi qb-core)
+-- Détection (Qbox avant QB car il expose aussi qb-core) pas ESX
 ---------------------------------------------------------------------
 function unblazq.ResolveFramework()
     if GetResourceState('qbx_core') == 'started' then return 'qbox' end
